@@ -1,0 +1,92 @@
+{
+ "Week": "2025-11-20",
+ "LastWeek": "",
+ "X": 0.5418797217116695,
+ "Programs": [
+  {
+   "Program": "cmd/asm",
+   "Version": "go1.23.0",
+   "GoVersion": "go1.23.0",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {},
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/cgo",
+   "Version": "go1.23.0",
+   "GoVersion": "go1.23.0",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {},
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/compile",
+   "Version": "go1.23.0",
+   "GoVersion": "go1.23.0",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "compile/invocations": 262
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/go",
+   "Version": "go1.23.0",
+   "GoVersion": "go1.23.0",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/buildcache/miss": 3000,
+    "go/buildcache/stdlib-recompiled": 10,
+    "go/goroot:other": 25,
+    "go/invocations": 25,
+    "go/list/flag:json": 10,
+    "go/mode:module": 25,
+    "go/platform/host/linux/major-version:6": 25,
+    "go/platform/host/linux/version:6-6": 25,
+    "go/platform/target/goamd64:v1": 25,
+    "go/platform/target/goarch:amd64": 25,
+    "go/platform/target/goos:linux": 25,
+    "go/subcommand:env": 10,
+    "go/subcommand:list": 10,
+    "go/subcommand:mod-vendor": 5
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/go",
+   "Version": "go1.24.10",
+   "GoVersion": "go1.24.10",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/goroot:other": 1,
+    "go/invocations": 1,
+    "go/mod-download/flag:json": 1,
+    "go/mode:module": 1,
+    "go/platform/host/linux/major-version:6": 1,
+    "go/platform/host/linux/version:6-6": 1,
+    "go/platform/target/goamd64:v1": 1,
+    "go/platform/target/goarch:amd64": 1,
+    "go/platform/target/goos:linux": 1,
+    "go/subcommand:mod-download": 1
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/link",
+   "Version": "go1.23.0",
+   "GoVersion": "go1.23.0",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "link/invocations": 10
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.74.0"
+}
